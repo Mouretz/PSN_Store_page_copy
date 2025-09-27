@@ -1,0 +1,19 @@
+.menu-bar__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    z-index: 999;
+    height: 40px;
+    boxshadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+
+    background-color: #ffffff;
+    color: white;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+app-menu-bar-items {
+  margin: 0 auto; /* Centraliza horizontalmente */
+}

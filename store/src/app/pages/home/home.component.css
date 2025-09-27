@@ -1,0 +1,12 @@
+.home__container {
+    width: 90%;
+    margin: auto; /* pra centralizar */
+    padding-top: 50px; /* pra desgrudar do topo */
+    display: flex; /* pra ficar em linha */
+
+    justify-content: space-around; /* pra os cards tiverem espacos entre eles */
+    align-items: baseline; /* alinha os cards pela base */
+    flex-wrap: wrap; /* sempre que um card exceder o limite ele joga pra baixo */
+    
+   
+}
